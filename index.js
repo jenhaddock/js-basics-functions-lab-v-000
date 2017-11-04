@@ -14,7 +14,7 @@ function distanceTravelledInFeet (pickup_block, destination_block){
 function calculatesFarePrice (pickup_block, destination_block){
   const distance = distanceTravelledInFeet(pickup_block, destination_block);
   switch(distance){
-    case (distance > 2500):
+    case (> 2500):
       return 'cannot travel that far';
     case (distance > 2000):
       return 25;
